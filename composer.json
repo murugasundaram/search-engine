@@ -1,0 +1,21 @@
+{
+    "name": "muruga/search-engine",
+    "description": "This is sample search engine based library which can be used in laravel latest versions",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Muruga\\SearchEngine\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muruga",
+            "email": "murugasundaram@expsoltechs.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    }
+}
